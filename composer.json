@@ -32,7 +32,6 @@
         "google/apiclient": "^2.0",
         "erusev/parsedown": "^1.7",
         "phpoffice/phpspreadsheet": "^1.22",
-        "phpoffice/phppresentation": "dev-master",
         "league/flysystem": "^2.4",
         "crunzphp/crunz": "^3.4",
         "mpdf/mpdf": "^6.1",
