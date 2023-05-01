@@ -1,5 +1,16 @@
 {
     "name": "g3yuri/volt-php",
+    "description": "Un ligero framework php",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Yuri Quispe",
+      "email": "g3yuri@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+
     "autoload": {
         "classmap": [ "lib/", "features/", "models/" ]
     },
@@ -7,6 +18,7 @@
         "psr-4": { "Test\\Assertions\\AssertGo\\": "tests/Assert.php" }
     },
     "require": {
+        "php": ">=7.4.0",
         "bramus/router": "^1.6",
         "catfan/medoo": "^2.1",
         "symfony/mailer": "^5.3",
