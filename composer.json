@@ -1,0 +1,32 @@
+{
+    "autoload": {
+        "classmap": [ "lib/", "features/", "models/" ]
+    },
+    "autoload-dev": {
+        "psr-4": { "Test\\Assertions\\AssertGo\\": "tests/Assert.php" }
+    },
+    "require": {
+        "bramus/router": "^1.6",
+        "catfan/medoo": "^2.1",
+        "symfony/mailer": "^5.3",
+        "symfony/twig-bridge": "^5.3",
+        "twig/extra-bundle": "^3.3",
+        "twig/cssinliner-extra": "^3.3",
+        "twig/markdown-extra": "^3.3",
+        "doctrine/dbal": "^3.1",
+        "respect/validation": "^2.2",
+        "klein/klein": "^2.1",
+        "google/apiclient": "^2.0",
+        "erusev/parsedown": "^1.7",
+        "phpoffice/phpspreadsheet": "^1.22",
+        "phpoffice/phppresentation": "dev-master",
+        "league/flysystem": "^2.4",
+        "crunzphp/crunz": "^3.4",
+        "mpdf/mpdf": "^6.1",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.0",
+        "phpunit/phpunit": "^9"
+    }
+}

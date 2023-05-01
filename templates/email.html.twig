@@ -1,0 +1,16 @@
+{% apply markdown_to_html %}
+    Como de que no {{ email.toName }}!
+    ===========================
+
+    You signed up to our site using the following email:
+    `{{ email.to[0].address }}`
+## Titulo
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+    [Click here to activate your account](www.google.com)
+{% endapply %}
