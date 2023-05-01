@@ -1,4 +1,5 @@
 {
+    "name": "g3yuri/volt-php",
     "autoload": {
         "classmap": [ "lib/", "features/", "models/" ]
     },
